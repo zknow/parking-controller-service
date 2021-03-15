@@ -1,0 +1,32 @@
+#場佔設定
+stage:
+  serverIp: ""
+  readerEnable: "0"
+  gpioEnable: "0"
+  logMaxSize: "10"
+  deviceno: "123456"
+  
+#票證
+cardsEnable:
+  ecc:        1
+  ipass:      0
+  icash:      0
+  happycash:  0
+
+#com port
+comPort:
+  Reader: ""
+  PrinterA: ""
+  PrinterB: ""
+  PLC: ""
+
+#事件代碼(無須更動)
+eventCode:
+  DeductFail: A014
+  DeductSuccess: A013
+  ManaIn: A003
+  ManaOut: A004
+  PamPay: A025
+
+
+  

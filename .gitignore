@@ -1,0 +1,13 @@
+/config/config.yml
+/logs/
+/tmp/
+/pictures/
+/scripts/
+/vendor/*/
+
+.env
+*.sock
+*.lock
+*.sh
+park
+gpioctl
